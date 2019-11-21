@@ -16,6 +16,8 @@ driver.maximize_window()
 time.sleep(3)
 #1111111111111111111
 #定位到要悬停的元素
+ggggggggggggggggggggggggggg
+uuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
 stop =driver.find_element_by_class_name("icon-arrow-down") 
 #对定位到的元素执行鼠标悬停操作
 ActionChains(driver).context_click(stop).perform()
